@@ -7,7 +7,7 @@ const Hero = () => {
             <div className="z-20 grid items-center h-full p-6 py-20 md:py-0 md:grid-cols-2">
                 <Image src="/hero-image.png" priority width="600" height="600" alt="Avatar" />
                 <div className="flex flex-col justify-center max-w-md">
-                    <h1 className="mb-5 text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-10">I'm Daniel Garrido, <br />
+                    <h1 className="mb-5 text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-10">I{'\''}m Daniel Garrido, <br />
                         <TypeAnimation
                             sequence={[
                                 'a Front-End Developer',
